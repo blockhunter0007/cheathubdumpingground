@@ -21,7 +21,7 @@
       "version": "1.0",
       "last_updated": "2024-09-19T15:00:00Z",
       "launcher": "custom",
-      "start_program": "autoclicker.exe"
+      "start_program": "autoclicker.py"
     }
   }
 }
