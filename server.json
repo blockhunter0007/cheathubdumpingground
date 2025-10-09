@@ -9,7 +9,9 @@
       "keywords": "aimbot, wallhack, esp, radar, triggerbot, no recoil, no spread, silent aim, cheat, hack, mod, mod menu",
       "version": "1.0",
       "last_updated": "2025-09-19T15:00:00Z",
-      "cheat_version": "0.0.01"
+      "cheat_version": "0.0.01",
+      "launcher": "Epic Games Launcher",
+      "start_program": "Fortnite_cheats.exe"
     },
     "autoclicker": {
       "name": "autoclicker",
@@ -19,7 +21,9 @@
       "keywords": "autoclicker, auto clicker, autoclick, auto click, clicker, auto, click, cheat, hack, mod, mod menu",
       "version": "1.0",
       "last_updated": "2024-09-19T15:00:00Z",
-      "cheat_version": "0.0.01"
+      "cheat_version": "0.0.01",
+      "launcher": "custom",
+      "start_program": "autoclicker.exe"
     }
   }
 }
