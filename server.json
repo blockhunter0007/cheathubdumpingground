@@ -23,5 +23,11 @@
       "launcher": "custom",
       "start_program": "autoclicker.py"
     }
+  },
+  "themes": {
+    "purple": {
+      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/purple.json",
+      "filename": "purple.json"
+    }
   }
 }
