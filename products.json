@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "UltraAim",
+    "slug": "ultraaim",
+    "version": "2.3.1",
+    "description": "Aim-Assist Tool mit erweiterten Funktionen. Kompatibel mit allen gängigen Spielen.",
+    "thumbnail": "https://via.placeholder.com/300x180?text=UltraAim"
+  },
+  {
+    "id": 2,
+    "name": "SpeedBoost",
+    "slug": "speedboost",
+    "version": "1.5.0",
+    "description": "Performance-Optimierungstool für schnellere Spielabläufe.",
+    "thumbnail": "https://via.placeholder.com/300x180?text=SpeedBoost"
+  },
+  {
+    "id": 3,
+    "name": "VisionPro",
+    "slug": "visionpro",
+    "version": "3.1.2",
+    "description": "Erweiterte visuelle Enhancements und Clipping-Prevention.",
+    "thumbnail": null
+  }
+]
