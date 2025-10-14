@@ -1,43 +1,97 @@
-Allgemeine Geschäftsbedingungen (AGB) für CheatHub
+Allgemeine Geschäftsbedingungen (AGB) — CheatHub
 
-1. Geltungsbereich
-Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die Nutzung des CheatHub-Clients (nachfolgend „Software“ bzw. „Dienst“) durch den Benutzer (nachfolgend „Nutzer“). Abweichende Bedingungen des Nutzers finden keine Anwendung, es sei denn, der Betreiber hat diesen ausdrücklich schriftlich zugestimmt.
+Gültig ab: ________
+Letzte Änderung: ________
 
-2. Leistungsbeschreibung
-CheatHub stellt eine Client-Software zum Herunterladen und Verwalten von Drittanbieter‑Programmen („Cheats“) zur Verfügung. Der Betreiber stellt keine Gewähr für die Funktionsfähigkeit, Sicherheit oder Rechtmäßigkeit der angebotenen Drittprogramme.
+1. Präambel
 
-3. Nutzung auf eigene Verantwortung (Haftungsausschluss / Getaway Clause)
-Die Nutzung der Software erfolgt vollständig auf eigene Verantwortung. Der Betreiber übernimmt keine Haftung für direkte oder indirekte Schäden, entgangenen Gewinn, Datenverluste, Systemschäden, Account-Sperrungen oder sonstige Nachteile, die durch Installation, Ausführung oder Nutzung heruntergeladener Software entstehen. Dieser Haftungsausschluss gilt im maximal gesetzlich zulässigen Umfang.
+Diese Allgemeinen Geschäftsbedingungen (nachfolgend „AGB“) regeln die Nutzung der Software, Dienste und Inhalte, die unter der Marke „CheatHub“ bzw. „CheatHub-Client“ (nachfolgend „Angebot“, „Software“, „Dienst“) vom Betreiber (nachfolgend „Betreiber“, „wir“, „uns“) bereitgestellt werden.
+Mit Herunterladen, Installieren oder anderweitiger Nutzung der Software erklärt der Nutzer (nachfolgend „Nutzer“, „Sie“), diese AGB gelesen, verstanden und akzeptiert zu haben.
 
-4. Freistellung (Indemnifizierung / Getaway Clause)
-Der Nutzer stellt den Betreiber und dessen Erfüllungsgehilfen von allen Ansprüchen Dritter frei, die aus der Nutzung der Software, aus einer Verletzung dieser AGB oder aus rechtswidrigem Verhalten resultieren. Die Freistellung umfasst notwendige Kosten der Rechtsverteidigung einschließlich Anwaltskosten.
+2. Vertragsgegenstand
 
-5. Verbotene Nutzung
-Es ist untersagt, die Software oder die heruntergeladenen Programme für rechtswidrige, betrügerische oder die Nutzungsbedingungen Dritter verletzende Zwecke zu verwenden. Der Betreiber kann bei Verdacht auf Missbrauch Zugang sperren und Inhalte entfernen.
+Gegenstand ist die Bereitstellung eines Download-Clients bzw. einer Plattform, über die der Nutzer Dateien (z. B. ausführbare Dateien, Updates, Plugins) beziehen kann. Die konkrete Nutzung der heruntergeladenen Dateien liegt allein beim Nutzer.
 
-6. Haftungsbegrenzung und -ausschluss (weitere Getaway Clauses)
-Soweit zulässig, ist die Haftung des Betreibers ausgeschlossen; bei schuldhafter Verletzung wesentlicher Vertragspflichten ist die Haftung auf typischerweise vorhersehbare Schäden begrenzt. Ansprüche wegen Verletzungen des Lebens, des Körpers oder der Gesundheit bleiben unberührt.
+3. Registrierung, Zugangsdaten, Altersbeschränkung
 
-7. Gewährleistung
-Alle Leistungen werden „wie gesehen“ und ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Insbesondere wird keine Zusicherung bezüglich Kompatibilität, Leistungsfähigkeit oder Virenfreiheit übernommen.
+Registrierung kann erforderlich sein; Nutzer müssen wahrheitsgemäße Angaben machen.
 
-8. Updates, Änderungen und Einstellungen
-Der Betreiber behält sich das Recht vor, die Software, Inhalte, Funktionen oder Preise jederzeit zu ändern, einzuschränken oder einzustellen. Der Nutzer wird nach Möglichkeit über größere Änderungen informiert; ein Anspruch auf Fortführung besteht nicht.
+Zugangsdaten sind vertraulich zu behandeln; der Nutzer haftet für alle Aktivitäten unter seinem Account.
 
-9. Kündigung und Rücktritt (Getaway Clause)
-Der Betreiber ist berechtigt, das Nutzungsverhältnis fristlos zu kündigen oder den Zugang zu sperren bei Verstößen gegen diese AGB, bei Missbrauch, oder aus wichtigen Gründen (z. B. Gefährdung der Systemstabilität). Der Nutzer kann das Nutzungsverhältnis jederzeit durch Deinstallation der Software und Löschung seines Accounts beenden; etwaige bereits entstandene Schäden bleiben hiervon unberührt.
+Nutzung nur für voll geschäftsfähige Personen; Minderjährige nur mit Einwilligung der Erziehungsberechtigten.
 
-10. Salvatorische Klausel
-Sollten einzelne Bestimmungen dieser AGB ganz oder teilweise unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Anstelle der unwirksamen Regelung tritt eine solche, die dem gewollten wirtschaftlichen Zweck am nächsten kommt.
+4. Leistungsumfang, Verfügbarkeit, Änderungen
 
-11. Änderungen der AGB
-Der Betreiber kann diese AGB jederzeit anpassen. Änderungen werden dem Nutzer in geeigneter Weise bekannt gegeben; bei fortgesetzter Nutzung nach Bekanntgabe gelten die Änderungen als akzeptiert.
+Die Software wird „wie gesehen“ bereitgestellt; keine Garantie für Fehlerfreiheit, Verfügbarkeit oder Eignung für einen bestimmten Zweck.
 
-12. Datenschutz
-Personenbezogene Daten werden gemäß der geltenden Datenschutzbestimmungen verarbeitet. Nähere Informationen sind der Datenschutzerklärung zu entnehmen.
+Funktionen, Inhalte oder Schnittstellen können jederzeit geändert, aktualisiert oder eingestellt werden; daraus entstehen keine Schadensersatzansprüche.
 
-13. Anwendbares Recht und Gerichtsstand
-Es gilt das Recht des Landes, in dem der Betreiber seinen Sitz hat, sofern nicht zwingende Verbraucherschutzvorschriften entgegenstehen. Ausschließlicher Gerichtsstand für Streitigkeiten ist, soweit zulässig, der Sitz des Betreibers.
+5. Nutzungsrechte / Lizenzen
 
-14. Sonstiges
-Diese AGB stellen die vollständige Vereinbarung zwischen Nutzer und Betreiber dar. Mündliche Nebenabreden bestehen nicht.
+Der Betreiber gewährt ein nicht-exklusives, nicht-übertragbares, widerrufliches Recht zur privaten Nutzung.
+
+Vervielfältigung, Modifikation, Reverse Engineering oder Umgehung technischer Schutzmaßnahmen ist untersagt.
+
+Nutzer ist verantwortlich, dass die Nutzung keine Rechte Dritter verletzt.
+
+6. Haftungsausschluss / „Getaway“-Klauseln
+
+Nutzung erfolgt auf eigenes Risiko; keine Haftung für direkte oder indirekte Schäden, Datenverlust, Folgeschäden oder entgangenen Gewinn.
+
+Keine Haftung für Account-Sperrungen, Einschränkungen oder Löschungen durch Dritte.
+
+Haftung beschränkt auf Vorsatz und grobe Fahrlässigkeit; einfache Fahrlässigkeit nur bei Verletzung wesentlicher Vertragspflichten, begrenzt auf den typischen vorhersehbaren Schaden.
+
+Nutzer stellt Betreiber und Mitarbeiter von Ansprüchen Dritter frei, die durch Nutzung der Software entstehen.
+
+Keine Haftung bei höherer Gewalt (z. B. Streik, Internet-Ausfall, staatliche Maßnahmen).
+
+7. Gewährleistung / Mängelansprüche
+
+Gewährleistungsansprüche sind soweit gesetzlich zulässig ausgeschlossen.
+
+Software wird ohne Zusicherung bestimmter Eigenschaften bereitgestellt.
+
+Gesetzliche Verbraucherschutzrechte bleiben unberührt.
+
+8. Pflichten des Nutzers / Verbotene Nutzung
+
+Nutzung nur in Übereinstimmung mit geltendem Recht und Verträgen Dritter.
+
+Verboten: Straftaten, Umgehung technischer Schutzmaßnahmen, Verbreitung von Malware oder Viren.
+
+Bei Verstoß kann der Betreiber Zugänge sperren oder löschen; ggf. Schadensersatzansprüche.
+
+9. Inhalte Dritter / Externe Links
+
+Inhalte Dritter werden ohne Gewähr bereitgestellt; Verantwortung liegt beim jeweiligen Anbieter.
+
+Links zu externen Seiten begründen keine Haftung des Betreibers.
+
+10. Updates, Support, Bezahlung
+
+Updates können Systemanforderungen ändern; Support ist nur bei ausdrücklicher Vereinbarung verpflichtend.
+
+Kostenpflichtige Angebote unterliegen gesonderten Zahlungs- und Rückerstattungsbedingungen.
+
+11. Datenschutz
+
+Erhebung, Verarbeitung und Nutzung personenbezogener Daten erfolgen gemäß gesonderter Datenschutzerklärung.
+
+Mit Nutzung der Software stimmt der Nutzer der Datenschutzerklärung zu.
+
+12. Laufzeit und Kündigung
+
+Nutzungsverhältnis kann jederzeit aus wichtigem Grund fristlos beendet werden.
+
+Nach Beendigung erlöschen alle Nutzungsrechte; alle Kopien der Software müssen gelöscht werden.
+
+13. Salvatorische Klausel
+
+Sollten einzelne Bestimmungen unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Anstelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlich Gewollten am nächsten kommt.
+
+14. Schlussbestimmungen / Gerichtsstand / anwendbares Recht
+
+Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts, sofern nicht zwingende Verbraucherschutzvorschriften entgegenstehen.
+
+Für Kaufleute, juristische Personen des öffentlichen Rechts oder öffentlich-rechtliche Sondervermögen ist der Gerichtsstand der Sitz des Betreibers. Andernfalls gilt der gesetzliche Gerichtsstand.
