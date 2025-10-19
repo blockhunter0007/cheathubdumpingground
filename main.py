@@ -17,6 +17,8 @@ from pypresence import Presence
 #                  init                            #
 #build = ".exe"                                    #
 build = Path(sys.executable if getattr(sys, "frozen", False) else __file__).resolve()
+build = build.suffix
+print(build)
 ####################################################
 
 ####################################################
@@ -63,6 +65,7 @@ if getattr(sys, 'frozen', False):
 else:
     # Wenn als normales Python-Skript ausgeführt
     apppath = Path(__file__).resolve().parent
+print(apppath)
 downloadfolderpath = apppath / "downloads"
 datapath = apppath / "data"
 assets_path = apppath / "assets"
@@ -253,11 +256,11 @@ if json_load == False:
         time.sleep(10)
         exit(1)
 
-if "version" in daten:
-    if daten["version"] != version:
+if "version" in daten["cheathub"]:
+    if daten["cheathub"]["version"] != version:
         update_message()
         print('update')
-        print('your version', version, 'is not the newest its', daten["version"])
+        print('your version', version, 'is not the newest its', daten["cheathub"]["version"])
 else:
     print('failed finding jsnversion (initialisationcheck) please turn on your wifi to install our programm')
     print('we only need wifi to see what cheats we have and download them.')
@@ -265,12 +268,12 @@ else:
     time.sleep(10)
     exit(1)
   # Blaue Akzentfarbe
-themen_liste = list(daten["themes"].keys())
+themen_liste = list(daten["cheathub"]["themes"].keys())
 standard_themes = ["blue", "green", "dark-blue"]
 themen_liste.extend(standard_themes)
 #for i, theme in enumerate(daten["themes"]):
-for theme in daten["themes"]:
-    main_theme = daten["themes"][theme]
+for theme in daten["cheathub"]["themes"]:
+    main_theme = daten["cheathub"]["themes"][theme]
     #print(main_theme)
     json_file =main_theme["filename"]
     theme_json=theme_path / json_file
@@ -314,7 +317,7 @@ button_frame = ctk.CTkFrame(root)
 button_frame.pack(padx=20, pady=20, fill="both", expand=True)
 def button_click_start(name):
     print(f"Button {name} wurde geklickt! und gestartet")
-    product = daten["products"][name]
+    product = daten["cheathub"]["products"][name]
     id = product["id"]
     cheat_path = downloadsfolder / id / product["start_program"]
     p = Path(cheat_path).resolve()
@@ -369,7 +372,7 @@ def button_click_uninstall(name):
     if btns.get("uninstall"):
         btns["uninstall"].destroy()
         btns["uninstall"] = None
-    ordner_pfad = downloadsfolder / daten["products"][name]["id"]
+    ordner_pfad = downloadsfolder / daten["cheathub"]["products"][name]["id"]
     shutil.rmtree(ordner_pfad)
 
 # Funktion, die beim Klick ausgeführt wird
@@ -381,7 +384,7 @@ def button_click(name):
     else:
         data = {}
 
-    data[name] = daten["products"][name]
+    data[name] = daten["cheathub"]["products"][name]
 
     with open(downloadjsonpath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
@@ -394,13 +397,13 @@ def button_click(name):
     btns["start"].configure(text="Starten", command=lambda n=product_name: button_click_start(n), fg_color=default_fg, hover_color=default_hover, text_color=default_text)
     # Deinstallieren-Button erstellen, falls noch nicht vorhanden
     if not btns.get("uninstall"):
-        i = list(daten["products"]).index(name)
+        i = list(daten["cheathub"]["products"]).index(name)
         uninstall_btn = ctk.CTkButton(button_frame, text="Deinstallieren", fg_color="red", hover_color="#ff4d4d",
                                       command=lambda n=name: button_click_uninstall(n))
         uninstall_btn.grid(row=i, column=2, padx=10, pady=5, sticky="ew")
         btns["uninstall"] = uninstall_btn
-    download_url = daten["products"][name]["download_url"]
-    dateinameundpfad = apppath / "downloads" / daten["products"][name]["id"] / daten["products"][name]["start_program"]
+    download_url = daten["cheathub"]["products"][name]["download_url"]
+    dateinameundpfad = apppath / "downloads" / daten["cheathub"]["products"][name]["id"] / daten["cheathub"]["products"][name]["start_program"]
     response2 = requests.get(download_url)
     if not dateinameundpfad.parent.exists():
         dateinameundpfad.parent.mkdir(parents=True, exist_ok=True)
@@ -686,8 +689,8 @@ product_labels = {}
 
 
 # Buttons dynamisch erstellen
-for i, product_name in enumerate(daten["products"]):
-    product = daten["products"][product_name]
+for i, product_name in enumerate(daten["cheathub"]["products"]):
+    product = daten["cheathub"]["products"][product_name]
     print(product)
     label = ctk.CTkLabel(button_frame, text=product_name)
     label.grid(row=i, column=0, padx=10, pady=5, sticky="w")

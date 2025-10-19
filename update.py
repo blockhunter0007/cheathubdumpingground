@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import requests
 import time
-import certifi
 import sys
 ####################################################
 #                  init                            #
@@ -13,7 +12,6 @@ build = Path(sys.executable if getattr(sys, "frozen", False) else __file__).reso
 #location = "local"                                 #
 #location = "appdata"                               #
 ####################################################
-os.environ["SSL_CERT_FILE"] = certifi.where()
 DOWNLOAD_URL = f"https://blockhunter0007.github.io/cheathubdumpingground/main{build}"
 APP_FILENAME = f"main{build}"
 if getattr(sys, 'frozen', False):

@@ -8,6 +8,7 @@ time.sleep(1)
 #                  init                            #
 #build = ".exe"                                     #
 build = Path(sys.executable if getattr(sys, "frozen", False) else __file__).resolve()
+build = build.suffix
 #location = "appdata"                               #
 ####################################################
 
