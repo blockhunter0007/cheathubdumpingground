@@ -1,53 +1,55 @@
 {
-  "version": "01.00.04",
-  "products": {
-    "Fortnite": {
-      "name": "Fortnite",
-      "id": "Fortnite",
-      "download_url": "https://blockhunter0007.github.io/cheathubdumpingground/Downloads/Fortnite",
-      "visible": true,
-      "keywords": "aimbot, wallhack, esp, radar, triggerbot, no recoil, no spread, silent aim, cheat, hack, mod, mod menu",
-      "version": "1.0",
-      "last_updated": "2025-09-19T15:00:00Z",
-      "launcher": "Epic Games Launcher",
-      "start_program": "Fortnite_cheats.exe"
+  "cheathub":{
+    "version": "01.00.04",
+    "products": {
+      "Fortnite": {
+        "name": "Fortnite",
+        "id": "Fortnite",
+        "download_url": "https://blockhunter0007.github.io/cheathubdumpingground/Downloads/Fortnite",
+        "visible": true,
+        "keywords": "aimbot, wallhack, esp, radar, triggerbot, no recoil, no spread, silent aim, cheat, hack, mod, mod menu",
+        "version": "1.0",
+        "last_updated": "2025-09-19T15:00:00Z",
+        "launcher": "Epic Games Launcher",
+        "start_program": "Fortnite_cheats.exe"
+      },
+      "autoclicker": {
+        "name": "autoclicker",
+        "id": "autoclicker",
+        "download_url": "https://blockhunter0007.github.io/cheathubdumpingground/Downloads/autoclicker/autoclicker.py",
+        "visible": true,
+        "keywords": "autoclicker, auto clicker, autoclick, auto click, clicker, auto, click, cheat, hack, mod, mod menu",
+        "version": "2.0",
+        "last_updated": "2024-09-19T15:00:00Z",
+        "launcher": "custom",
+        "start_program": "autoclicker.py"
+      }
     },
-    "autoclicker": {
-      "name": "autoclicker",
-      "id": "autoclicker",
-      "download_url": "https://blockhunter0007.github.io/cheathubdumpingground/Downloads/autoclicker/autoclicker.py",
-      "visible": true,
-      "keywords": "autoclicker, auto clicker, autoclick, auto click, clicker, auto, click, cheat, hack, mod, mod menu",
-      "version": "2.0",
-      "last_updated": "2024-09-19T15:00:00Z",
-      "launcher": "custom",
-      "start_program": "autoclicker.py"
-    }
-  },
-  "themes": {
-    "purple": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/purple.json",
-      "filename": "purple.json"
-    },
-    "dark_red": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/dark_red.json",
-      "filename": "dark_red.json"
-    },
-    "orange": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/orange.json",
-      "filename": "orange.json"
-    },
-    "pink": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/pink.json",
-      "filename": "pink.json"
-    },
-    "red": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/red.json",
-      "filename": "red.json"
-    },
-    "yellow": {
-      "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/yellow.json",
-      "filename": "yellow.json"
+    "themes": {
+      "purple": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/purple.json",
+        "filename": "purple.json"
+      },
+      "dark_red": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/dark_red.json",
+        "filename": "dark_red.json"
+      },
+      "orange": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/orange.json",
+        "filename": "orange.json"
+      },
+      "pink": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/pink.json",
+        "filename": "pink.json"
+      },
+      "red": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/red.json",
+        "filename": "red.json"
+      },
+      "yellow": {
+        "downloadurl": "https://blockhunter0007.github.io/cheathubdumpingground/themes/yellow.json",
+        "filename": "yellow.json"
+      }
     }
   }
 }
